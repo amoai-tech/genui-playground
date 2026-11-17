@@ -1,0 +1,12 @@
+node_modules
+.next
+.env*
+!.env.example
+*.tsbuildinfo
+next-env.d.ts
+
+# Written by `next dev` (Next.js 16 agentRules)
+AGENTS.md
+
+# Design exports can include user/project information. Keep local by default.
+exports/
