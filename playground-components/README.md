@@ -70,3 +70,7 @@
 | P2 | Remaining extras | Only when a real user journey, trusted data and native feature gap justify it |
 
 **Macros are different:** the [three Playground macros](../playground-macros/README.md) expand server-side into standard components and are not equivalent to these 52 custom renderers.
+
+## Practical priorities and map components
+
+[MDE/iPix priority and map integration guide](./MDE-IPIX-PRIORITY-GUIDE.md) — MapView, RouteMap, LocationCard, PlaceList, ten priority components and real-world acceptance tests.

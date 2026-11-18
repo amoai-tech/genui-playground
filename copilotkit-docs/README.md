@@ -70,3 +70,7 @@
 
 - [52 extra Playground components](../playground-components/README.md) — **not** CopilotKit standardUI; need explicit registration to be available in an application.
 - [3 built-in macro references](../playground-macros/README.md) — compact server-side templates expanded into standard components.
+
+## Practical priorities and map components
+
+[MDE/iPix priority and map integration guide](../playground-components/MDE-IPIX-PRIORITY-GUIDE.md) — MapView, RouteMap, LocationCard, PlaceList, ten priority components and real-world acceptance tests.
