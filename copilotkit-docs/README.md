@@ -65,3 +65,8 @@
 - **iPix:** check lockfile and deployed head; never infer production readiness from the example snapshot.
 
 **Maintenance:** After a CopilotKit version change, revisit each linked official page, record version-specific changes in the application task, rerun catalog/provider/schema and browser tests.
+
+## Playground-only extensions
+
+- [52 extra Playground components](../playground-components/README.md) — **not** CopilotKit standardUI; need explicit registration to be available in an application.
+- [3 built-in macro references](../playground-macros/README.md) — compact server-side templates expanded into standard components.
