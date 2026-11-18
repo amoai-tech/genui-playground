@@ -46,15 +46,15 @@
 
 **Do not** enable all 69 standard components just because they exist, assume the Playground's extra 52 components are installed in MDE/iPix, expose private database access to an agent component, or add a second Mastra/CopilotKit runtime. The Playground's 3 demonstration macros (ProductCard, FlightCard, WeatherReport) are design examples, not a default MDE/iPix integration.
 
-## Local reference locations
+## Repository references
 
-- This guide: `/home/sk/github-repos/a2ui-playground/copilotkit-docs/`
-- Detailed implementation instructions: [IMPLEMENTATION-GUIDE.md](./IMPLEMENTATION-GUIDE.md)
-- Original Playground: `/home/sk/github-repos/a2ui-playground/`
-- Separate MDE Playground: `/home/sk/github-repos/a2ui-playground-mde/`
-- CopilotKit example snapshot: `/home/sk/github-repos/copilotkit examples/`
-- MDE application: https://github.com/amoai-tech/mdeai
-- iPix application: https://github.com/amoai-tech/ipixai
+- **This guide:** [README.md](./README.md) and [IMPLEMENTATION-GUIDE.md](./IMPLEMENTATION-GUIDE.md).
+- **Playground source:** [genui-playground repository](https://github.com/amoai-tech/genui-playground) and [component definitions](../src/a2ui/catalog/definitions/).
+- **Component references:** [official standard catalog notes](../copilotkit-components/README.md), [Playground extras](../playground-components/README.md), and [macros](../playground-macros/README.md).
+- **Official examples:** [CopilotKit examples](https://github.com/CopilotKit/CopilotKit/tree/main/examples). See the [examples by use case](./IMPLEMENTATION-GUIDE.md#official-reusable-examples); check installed package versions before adapting them.
+- **Application repositories:** [MDE AI](https://github.com/amoai-tech/mdeai) and [iPix](https://github.com/amoai-tech/ipixai).
+
+To run this Playground locally, clone the repository into **any directory** and follow its [root README](../README.md). A separate MDE installation is optional and not part of this repository.
 
 ## Important version distinctions
 

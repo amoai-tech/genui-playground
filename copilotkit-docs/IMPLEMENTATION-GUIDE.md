@@ -162,12 +162,18 @@ For each actual task write:
 - **Proof:** unit/contract, browser desktop/mobile, authorization negative test, actual readback
 - **STOP:** if installed API differs, tenant scope is unproved, or a UI action cannot be confirmed
 
-## Local reusable examples
+## Official reusable examples
 
-- `/home/sk/github-repos/copilotkit examples/integrations/mastra/` — **MODEL/ADAPT**, check version before using agent/runtime patterns.
-- `/home/sk/github-repos/copilotkit examples/showcases/a2ui-playground/` — **MODEL**, dynamic surfaces, components and macro concepts.
-- `/home/sk/github-repos/copilotkit examples/v2/a2ui-markdown/` — **REFERENCE ONLY**, optional transport.
-- `/home/sk/github-repos/copilotkit examples/v2/generative-ui-shop/` — **MODEL**, product cards for iPix commerce.
-- `/home/sk/github-repos/copilotkit examples/canvas/mastra-pm/` — **MODEL**, production planning ideas.
+These are public CopilotKit examples, **not directories contained in this repository**. Their exact implementations may change on `main`; pin a commit SHA when adapting one to an application.
+
+| Example | Source | Use | Do not copy |
+| --- | --- | --- | --- |
+| Mastra integration | [integrations/mastra](https://github.com/CopilotKit/CopilotKit/tree/main/examples/integrations/mastra) | **ADAPT:** agent/runtime integration patterns after version checks | Demo authentication, memory or runtime wiring |
+| A2UI Playground | [showcases/a2ui-playground](https://github.com/CopilotKit/CopilotKit/tree/main/examples/showcases/a2ui-playground) | **MODEL:** Surface composition and catalog ideas | Extra components without explicitly registering them |
+| A2UI Markdown | [v2/a2ui-markdown](https://github.com/CopilotKit/CopilotKit/tree/main/examples/v2/a2ui-markdown) | **REFERENCE ONLY:** optional markdown transport | Alternate transport unless the existing runtime needs it |
+| Generative UI Shop | [v2/generative-ui-shop](https://github.com/CopilotKit/CopilotKit/tree/main/examples/v2/generative-ui-shop) | **MODEL:** iPix commerce product-card layouts | Demo inventory, prices, checkout or unverified business facts |
+| Mastra Project Manager | [canvas/mastra-pm](https://github.com/CopilotKit/CopilotKit/tree/main/examples/canvas/mastra-pm) | **MODEL:** planning and editing UX | Parallel agents, persistence or authorization |
+
+**Apply:** reuse existing MDE/iPix code first; select an exact official example file and symbol, record its pinned commit, identify the destination and verify the user journey before implementing.
 
 > This is documentation only. Do not change MDE/iPix runtime or commit/delete exports as part of creating this guide.
